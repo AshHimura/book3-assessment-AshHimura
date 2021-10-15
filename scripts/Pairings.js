@@ -21,12 +21,7 @@ export const Pairings = () => {
 
     for (const kid of kids) {
         const kidsStar = findCelebrityMatch(kid, celebrities)
-        html += `<li>${kid.name} will be making memories with 
-        ${kidsStar.name}, a ${kidsStar.sport} star, by ${kid.wish}
-        </li>`
-
-        //'Christan Swindles will be making memories with Bernie Dreger,
-        // a Gymnastics star, by Throw the opening pitch at a baseball game'
+        html += `<li>${kid.name} will be making memories with ${kidsStar.name}, a ${kidsStar.sport} star, by ${kid.wish}</li>`
     }
 
     html += "</ul>"
