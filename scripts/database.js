@@ -54,22 +54,22 @@ const database = {
         id: 1,
         name: "Christan Swindles",
         celebrityId: 6,
-        wish: "Throwing the opening pitch at a baseball game"
+        wish: "Throw the opening pitch at a baseball game"
     }, {
         id: 2,
         name: "Findlay Dumini",
         celebrityId: 8,
-        wish: "Driving a race car"
+        wish: "Drive a race car"
     }, {
         id: 3,
         name: "Micheil Guerrazzi",
         celebrityId: 9,
-        wish: "Visiting the White House"
+        wish: "Visit the White House"
     }, {
         id: 4,
         name: "Karine McKennan",
         celebrityId: 6,
-        wish: "Driving a race car"
+        wish: "Drive a race car"
     }, {
         id: 5,
         name: "Cissy Weavers",
@@ -79,27 +79,27 @@ const database = {
         id: 6,
         name: "Bendick Standbrooke",
         celebrityId: 2,
-        wish: "Singing a song with Taylor Swift and pet her cats"
+        wish: "Sing a song with Taylor Swift and pet her cats"
     }, {
         id: 7,
         name: "Ethyl Copnell",
         celebrityId: 4,
-        wish: "Dunking on LeBron James"
+        wish: "Dunk on LeBron James"
     }, {
         id: 8,
         name: "Elisha Betchley",
         celebrityId: 2,
-        wish: "Riding on a helicopter"
+        wish: "Ride on a helicopter"
     }, {
         id: 9,
         name: "Enrica Mathivon",
         celebrityId: 1,
-        wish: "Taking care of ponies on a farm and spend the whole night riding one"
+        wish: "Take care of ponies on a farm and spend the whole night riding one"
     }, {
         id: 10,
         name: "Humfrid Madner",
         celebrityId: 4,
-        wish: "Putting out a fire as a fireman after riding on the truck with the siren on"
+        wish: "Put out a fire as a fireman after riding on the truck with the siren on"
     }]
 }
 

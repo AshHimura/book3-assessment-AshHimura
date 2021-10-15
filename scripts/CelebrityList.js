@@ -11,7 +11,9 @@ document.addEventListener(
 
             for (const star of celebrities) {
                 if (star.id === parseInt(starId)) {
-                    window.alert(`${star.name} is a ${star.sport} star`)
+                    window.alert(`${star.name} is ${star.sport} star`)
+
+                    
                 }
             }
         }
