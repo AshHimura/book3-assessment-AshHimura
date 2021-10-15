@@ -13,7 +13,7 @@ const database = {
         id: 3,
         name: "Anna Bowton",
         email: "abowton2@wisc.edu",
-        spōrt: "Golf"
+        sport: "Golf"
     }, {
         id: 4,
         name: "Hunfredo Drynan",
@@ -36,7 +36,7 @@ const database = {
         sport: "Baseball"
     }, {
         id: 8,
-        mane: "Tiffanie Tubby",
+        name: "Tiffanie Tubby",
         email: "ttubby7@intel.com",
         sport: "Basketball"
     }, {
@@ -54,22 +54,22 @@ const database = {
         id: 1,
         name: "Christan Swindles",
         celebrityId: 6,
-        wish: "Throw the opening pitch at a baseball game"
+        wish: "Throwing the opening pitch at a baseball game"
     }, {
         id: 2,
         name: "Findlay Dumini",
         celebrityId: 8,
-        wish: "Drive a race car"
+        wish: "Driving a race car"
     }, {
         id: 3,
         name: "Micheil Guerrazzi",
         celebrityId: 9,
-        wish: "Visit the White House"
+        wish: "Visiting the White House"
     }, {
         id: 4,
         name: "Karine McKennan",
         celebrityId: 6,
-        wissh: "Drive a race car"
+        wish: "Driving a race car"
     }, {
         id: 5,
         name: "Cissy Weavers",
@@ -79,26 +79,34 @@ const database = {
         id: 6,
         name: "Bendick Standbrooke",
         celebrityId: 2,
-        wish: "Sing a song with Taylor Swift and pet her cats"
+        wish: "Singing a song with Taylor Swift and pet her cats"
     }, {
         id: 7,
         name: "Ethyl Copnell",
         celebrityId: 4,
-        wish: "Dunk on LeBron James"
+        wish: "Dunking on LeBron James"
     }, {
         id: 8,
         name: "Elisha Betchley",
         celebrityId: 2,
-        wissh: "Ride on a helicopter"
+        wish: "Riding on a helicopter"
     }, {
         id: 9,
         name: "Enrica Mathivon",
         celebrityId: 1,
-        wish: "Take care of ponies on a farm and spend the whole night riding one"
+        wish: "Taking care of ponies on a farm and spend the whole night riding one"
     }, {
         id: 10,
         name: "Humfrid Madner",
         celebrityId: 4,
-        wish: "Put out a fire as a fireman after riding on the truck with the siren on"
+        wish: "Putting out a fire as a fireman after riding on the truck with the siren on"
     }]
+}
+
+export const getCelebrities = () => {
+    return database.celebrities.map(celebrity => ({...celebrity}))
+}
+
+export const getChildren = () => {
+    return database.children.map(child => ({...child}))
 }

@@ -10,7 +10,8 @@
     border: 1px dotted rgb(61, 129, 196);
 }
 
-.pairings {
-    padding: 1rem 5rem;
+.assignments {
+    font-size: 1.02em;
+    display: flex;
 }
 
